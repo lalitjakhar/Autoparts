@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1F1F1F;
+    font-family: 'Inter', sans-serif;
+}
+.main_nav h2,p{
+    color: #ffffff;
+}
+.search_bar input[type=text] {
+  color: #ffffff;
+  width: 75%;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+}
+@media only screen and (max-width: 1203px) {
+  .search_bar input{
+    display: none;
+  }
+  .search_bar i{
+    float: right;
+  }
+}
+
+.drop_nav{
+  background-color: #ffd000 !important;
+}
+.drop_button{
+  background-color: #ffd000;
+}
