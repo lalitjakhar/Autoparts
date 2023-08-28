@@ -1,32 +1,93 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: #1F1F1F;
-    font-family: 'Inter', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background: #1f1f1f !important;
 }
-.main_nav h2,p{
-    color: #ffffff;
+
+nav {
+  background-color: #1f1f1f;
 }
-.search_bar input[type=text] {
+
+.main_nav h2,
+p {
   color: #ffffff;
+}
+.search_bar{
+  border-bottom: 2px solid #FFA800;
+}
+.search_bar input {
+  background-color: #1f1f1f;
+  color: #949393;
   width: 75%;
-  border: none;
+  border: none !important;
   font-size: 14px;
   font-weight: 600;
   line-height: 16.94px;
 }
+
+.search_bar input:focus {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none;
+}
+
+.search_icon {
+  display: none;
+  padding-right: 1rem;
+}
+
 @media only screen and (max-width: 1203px) {
-  .search_bar input{
+  .search_bar {
     display: none;
   }
-  .search_bar i{
+  .search_bar i {
     float: right;
+  }
+  .search_icon {
+    display: block;
   }
 }
 
-.drop_nav{
-  background-color: #ffd000 !important;
+.drop_nav {
+  background-color: #FFA800 !important;
 }
-.drop_button{
-  background-color: #ffd000;
+@media only screen and (max-width: 1281px) {
+  .drop_nav{
+    display: none;
+  }
+}
+
+.drop_button {
+  background-color: #FFA800;
+  height: 4rem;
+}
+.detail_caption h1{
+  font-size: 70px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: inherit;
+  text-transform: uppercase;
+
+}
+.detail_caption p{
+  font-size: 20px;
+  margin-bottom: 7rem;
+  color: inherit;
+  font-weight: 600;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: 0;
+  box-shadow: 0;
+}
+.carousel-item img {
+  height: 451px;
+}
+
+.nissan_car{
+  background-image: url(../images/nissan.png);
+  border-radius: 2%;
 }
