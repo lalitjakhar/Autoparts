@@ -13,9 +13,11 @@ nav {
 p {
   color: #ffffff;
 }
-.search_bar{
+
+.search_bar {
   border-bottom: 2px solid #FFA800;
 }
+
 .search_bar input {
   background-color: #1f1f1f;
   color: #949393;
@@ -41,9 +43,11 @@ p {
   .search_bar {
     display: none;
   }
+
   .search_bar i {
     float: right;
   }
+
   .search_icon {
     display: block;
   }
@@ -52,8 +56,9 @@ p {
 .drop_nav {
   background-color: #FFA800 !important;
 }
+
 @media only screen and (max-width: 1281px) {
-  .drop_nav{
+  .drop_nav {
     display: none;
   }
 }
@@ -62,7 +67,8 @@ p {
   background-color: #FFA800;
   height: 4rem;
 }
-.detail_caption h1{
+
+.detail_caption h1 {
   font-size: 70px;
   margin-bottom: 1rem;
   font-weight: 600;
@@ -71,7 +77,8 @@ p {
   text-transform: uppercase;
 
 }
-.detail_caption p{
+
+.detail_caption p {
   font-size: 20px;
   margin-bottom: 7rem;
   color: inherit;
@@ -83,11 +90,45 @@ p {
   outline: 0;
   box-shadow: 0;
 }
+
 .carousel-item img {
   height: 451px;
 }
 
-.nissan_car{
+.nissan_car {
   background-image: url(../images/nissan.png);
-  border-radius: 2%;
+  border-radius: 20px;
+  height: 16rem;
+}
+
+.nissan_content h4, .motor_bike h4, .harley_bike h4 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.nissan_content h5, .motor_bike h5, .harley_bike h5 {
+  font-size: 20px;
+  font-weight:400 ;
+  color: #ffffff;
+}
+.motor_bike a, .harley_bike a{
+  color: #ffffff;
+  text-decoration: underline;
+}
+.motor_bike a:hover , .harley_bike a:hover{
+  color: #ffffff;
+}
+.bike_content{
+  gap: 25px;
+}
+.motor_bike{
+  background-image: url(../images/motorcycle.png);
+  border-radius: 20px;
+  height: 11rem;
+}
+.harley_bike{
+  background-image: url(../images/harley-davidson.png);
+  border-radius: 20px;
+  height: 11rem;
 }
