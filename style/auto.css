@@ -85,14 +85,125 @@ p {
   font-weight: 600;
 }
 
-.btn.focus,
 .btn:focus {
   outline: 0;
-  box-shadow: 0;
+  box-shadow: none !important;
 }
 
 .carousel-item img {
   height: 451px;
+}
+
+.product_content {
+  background-color: #000000;
+  opacity: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  position: relative;
+  margin-top: -5rem;
+  text-transform: uppercase;
+}
+
+.product_content h5 {
+  color: #ffffff;
+  padding-inline: 16px;
+  margin-bottom: 0;
+  font-size: 16px;
+  border-right: 2px solid #ffffff;
+}
+
+@media only screen and (max-width: 400px) {
+  .product_content h5 {
+    font-size: 5px;
+  }
+}
+
+.vehicle_selection {
+  background-color: #FFA800;
+  height: 4rem;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  position: relative;
+}
+
+@media only screen and (max-width: 1200px) {
+  .vehicle_selection {
+    display: none;
+  }
+}
+.car_content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.car_content div>button::after{
+  float: right ;
+}
+
+.vehicle_selection h5 {
+  margin-block: 1.3rem;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.vehicle_selection .col {
+  max-width: fit-content;
+}
+
+.selection_button button {
+  width: 9rem;
+}
+
+.selection_button button:focus {
+  box-shadow: none;
+}
+
+.detail_button button {
+  width: 9rem;
+  background-color: #ffd95d;
+}
+
+.detail_button button:focus {
+  box-shadow: none;
+}
+
+.selection_button .dropdown-menu {
+  min-width: 9rem;
+}
+
+.detail_button .dropdown-menu {
+  min-width: 9rem;
+  background-color: #ffd95d;
+}
+
+.go-button {
+  padding: 10px 10px;
+  background-color: #ffd95d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 50%;
+  text-transform: uppercase;
+}
+
+.car_selection {
+  background-color: #FFA800;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  padding: 30px;
+  position: relative;
+  height: 20rem;
+}
+@media only screen and (min-width: 1200px) {
+  .car_selection {
+    display: block;
+    display: none;
+  }
 }
 
 .nissan_car {
@@ -101,33 +212,62 @@ p {
   height: 16rem;
 }
 
-.nissan_content h4, .motor_bike h4, .harley_bike h4 {
+.nissan_content h4,
+.motor_bike h4,
+.harley_bike h4 {
   font-size: 40px;
   font-weight: 500;
   color: #ffffff;
 }
 
-.nissan_content h5, .motor_bike h5, .harley_bike h5 {
+@media only screen and (max-width: 770px) {
+
+  .nissan_content h4,
+  .motor_bike h4,
+  .harley_bike h4 {
+    font-size: 20px;
+  }
+}
+
+.nissan_content h5,
+.motor_bike h5,
+.harley_bike h5 {
   font-size: 20px;
-  font-weight:400 ;
+  font-weight: 400;
   color: #ffffff;
 }
-.motor_bike a, .harley_bike a{
+
+@media only screen and (max-width: 770px) {
+
+  .nissan_content h5,
+  .motor_bike h5,
+  .harley_bike h5 {
+    font-size: 10px;
+  }
+}
+
+.motor_bike a,
+.harley_bike a {
   color: #ffffff;
   text-decoration: underline;
 }
-.motor_bike a:hover , .harley_bike a:hover{
+
+.motor_bike a:hover,
+.harley_bike a:hover {
   color: #ffffff;
 }
-.bike_content{
+
+.bike_content {
   gap: 25px;
 }
-.motor_bike{
+
+.motor_bike {
   background-image: url(../images/motorcycle.png);
   border-radius: 20px;
   height: 11rem;
 }
-.harley_bike{
+
+.harley_bike {
   background-image: url(../images/harley-davidson.png);
   border-radius: 20px;
   height: 11rem;
