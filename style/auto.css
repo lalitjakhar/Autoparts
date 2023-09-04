@@ -122,7 +122,7 @@ p {
 
 .vehicle_selection {
   background-color: #FFA800;
-  height: 4rem;
+  height: 4.5rem;
   border-radius: 2rem;
   margin-top: 1rem;
   position: relative;
@@ -133,17 +133,23 @@ p {
     display: none;
   }
 }
-.car_content{
+
+.car_content {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+  color: #ffffff;
+  height: 2.9rem;
 }
 
-.car_content div>button::after{
-  float: right ;
+.car_content div>button::after {
+  float: right;
+  margin-top: 0.6rem;
 }
-
+.car_content button{
+  background-color: #ffffff;
+}
 .vehicle_selection h5 {
   margin-block: 1.3rem;
   font-size: 1.1rem;
@@ -156,6 +162,7 @@ p {
 
 .selection_button button {
   width: 9rem;
+  background-color: #ffffff;
 }
 
 .selection_button button:focus {
@@ -199,6 +206,7 @@ p {
   position: relative;
   height: 20rem;
 }
+
 @media only screen and (min-width: 1200px) {
   .car_selection {
     display: block;
@@ -271,4 +279,63 @@ p {
   background-image: url(../images/harley-davidson.png);
   border-radius: 20px;
   height: 11rem;
+}
+
+.tool_parts {
+  background-color: #ffffff;
+  border-radius: 20px;
+  text-decoration: #000000;
+}
+
+.tool_parts button {
+  padding: 0.4rem 0.8rem;
+}
+
+.tabshow_content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabshow_content .col {
+  padding: 1.4rem 2.4rem;
+}
+
+.tabshow_content h5 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+  text-decoration: underline;
+  font-size: 14px;
+  padding-top: 24px;
+  font-weight: 400;
+  line-height: 16.94px;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #FFA800 !important;
+  border-top: none !important;
+  border-inline: none !important;
+}
+.empty_fluid{
+  background-color: #FFA800;
+  height: 2rem;
+}
+.regular_service{
+  color: #ffffff;
+}
+.regular_card{
+  background-color: #ffffff;
+  border-radius: 2px;
+  height: 7rem;
+  padding: 12px;
+}
+.regular_card h5{
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+}
+.regular_card p{
+  color: #000000;
+  font-size: 13px;
+  font-weight: 400;
 }
