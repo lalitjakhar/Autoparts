@@ -147,9 +147,11 @@ p {
   float: right;
   margin-top: 0.6rem;
 }
-.car_content button{
+
+.car_content button {
   background-color: #ffffff;
 }
+
 .vehicle_selection h5 {
   margin-block: 1.3rem;
   font-size: 1.1rem;
@@ -311,31 +313,50 @@ p {
   line-height: 16.94px;
 }
 
-.nav-link.active {
+.tools_link.active {
   border-bottom: 2px solid #FFA800 !important;
   border-top: none !important;
   border-inline: none !important;
 }
-.empty_fluid{
+
+.empty_fluid {
   background-color: #FFA800;
   height: 2rem;
 }
-.regular_service{
+
+.regular_service {
   color: #ffffff;
 }
-.regular_card{
+
+.regular_card {
   background-color: #ffffff;
   border-radius: 2px;
-  height: 7rem;
+  height: 9rem;
   padding: 12px;
 }
-.regular_card h5{
+
+.regular_card h5 {
   color: #000000;
   font-size: 18px;
   font-weight: 600;
 }
-.regular_card p{
+
+.regular_card p {
   color: #000000;
   font-size: 13px;
   font-weight: 400;
+}
+
+.regular_service>.carousel-cell {
+  width: 35%;
+}
+
+.models_link{
+  padding: 0.9rem !important;
+}
+.models_link button.active{
+  border-bottom: 2px solid #FFA800 !important;
+  background-color: transparent !important;
+  border-top: none !important;
+  border-inline: none !important;
 }

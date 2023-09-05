@@ -11,6 +11,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://npmcdn.com/flickity@2/dist/flickity.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
         integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet"
@@ -172,16 +173,6 @@
     </section>
     <section class="carousel_home py-4">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div id="carouselExampleIndicators" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                </div>
-            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="../images/home_carousel.png" class="img-fluid d-block w-100" alt="...">
@@ -405,50 +396,50 @@
             <div class="row p-4">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="top-tab" data-bs-toggle="tab" data-bs-target="#top-tab-pane"
+                        <button class="nav-link tools_link active" id="top-tab" data-bs-toggle="tab" data-bs-target="#top-tab-pane"
                             type="button" role="tab" aria-controls="top-pane" aria-selected="true">Top Selling</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="replace-tab" data-bs-toggle="tab"
+                        <button class="nav-link  tools_link" id="replace-tab" data-bs-toggle="tab"
                             data-bs-target="#replace-tab-pane" type="button" role="tab" aria-controls="replace-tab-pane"
                             aria-selected="false">Replacement Parts</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="light-tab" data-bs-toggle="tab" data-bs-target="#light-tab-pane"
+                        <button class="nav-link  tools_link" id="light-tab" data-bs-toggle="tab" data-bs-target="#light-tab-pane"
                             type="button" role="tab" aria-controls="light-tab-pane"
                             aria-selected="false">Lighting</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="tools-tab" data-bs-toggle="tab" data-bs-target="#tools-tab-pane"
+                        <button class="nav-link tools_link" id="tools-tab" data-bs-toggle="tab" data-bs-target="#tools-tab-pane"
                             type="button" role="tab" aria-controls="tools-tab-pane" aria-selected="false">Tools</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="perform-tab" data-bs-toggle="tab"
+                        <button class="nav-link tools_link" id="perform-tab" data-bs-toggle="tab"
                             data-bs-target="#perform-tab-pane" type="button" role="tab" aria-controls="perform-tab-pane"
                             aria-selected="false">Performance</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="body-tab" data-bs-toggle="tab" data-bs-target="#body-tab-pane"
+                        <button class="nav-link tools_link" id="body-tab" data-bs-toggle="tab" data-bs-target="#body-tab-pane"
                             type="button" role="tab" aria-controls="body-tab-pane" aria-selected="false">Body
                             Parts</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="tyre-tab" data-bs-toggle="tab" data-bs-target="#tyre-tab-pane"
+                        <button class="nav-link tools_link" id="tyre-tab" data-bs-toggle="tab" data-bs-target="#tyre-tab-pane"
                             type="button" role="tab" aria-controls="tyre-tab-pane" aria-selected="false">Tyres &amp;
                             Wheels</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="interior-tab" data-bs-toggle="tab"
+                        <button class="nav-link tools_link" id="interior-tab" data-bs-toggle="tab"
                             data-bs-target="#interior-tab-pane" type="button" role="tab"
                             aria-controls="interior-tab-pane" aria-selected="false">Interior</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="exterior-tab" data-bs-toggle="tab"
+                        <button class="nav-link tools_link" id="exterior-tab" data-bs-toggle="tab"
                             data-bs-target="#exterior-tab-pane" type="button" role="tab"
                             aria-controls="exterior-tab-pane" aria-selected="false">Exterior</button>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="special-tab" data-bs-toggle="tab"
+                        <button class="nav-link tools_link" id="special-tab" data-bs-toggle="tab"
                             data-bs-target="#special-tab-pane" type="button" role="tab" aria-controls="special-tab-pane"
                             aria-selected="false">Specialty Parts</button>
                     </li>
@@ -937,8 +928,8 @@
             <div class="row d-flex justify-content-center">
                 <h1>Regular Service</h1>
             </div>
-            <div class="carousel" data-flickity='{ "freeScroll": true, "wrapAround": false, "pageDots":false }'>
-                <div class="carousel-cell w-25">
+            <div class="carousel" data-flickity='{ "freeScroll": true, "wrapAround": true, "pageDots":false }'>
+                <div class="carousel-cell ">
                     <div class="card regular_card">
                         <div class="row justify-content-between">
                             <div class="col-4">
@@ -951,7 +942,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-cell w-25">
+                <div class="carousel-cell">
                     <div class="card regular_card">
                         <div class="row justify-content-between">
                             <div class="col-4">
@@ -964,7 +955,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-cell w-25">
+                <div class="carousel-cell">
                     <div class="card regular_card">
                         <div class="row justify-content-between">
                             <div class="col-4">
@@ -977,33 +968,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-cell w-25">
-                    <div class="card regular_card">
-                        <div class="row justify-content-between">
-                            <div class="col-4">
-                                <img src="../images/Daco_1093836 1.png" alt="">
-                            </div>
-                            <div class="col-7 d-block">
-                                <h5>Autopart Name</h5>
-                                <p>Lorem Ipsum is simply dummy text of the printing</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-cell w-25">
-                    <div class="card regular_card">
-                        <div class="row justify-content-between">
-                            <div class="col-4">
-                                <img src="../images/Daco_1093836 1.png" alt="">
-                            </div>
-                            <div class="col-7 d-block">
-                                <h5>Autopart Name</h5>
-                                <p>Lorem Ipsum is simply dummy text of the printing</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-cell w-25">
+                <div class="carousel-cell">
                     <div class="card regular_card">
                         <div class="row justify-content-between">
                             <div class="col-4">
@@ -1019,12 +984,90 @@
             </div>
         </div>
     </section>
+    <section class="py-5">
+        <div class="container regular_service">
+            <div class="row d-flex justify-content-center">
+                <h1>Featured Makes &amp; Models</h1>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row p-4 vehicle_models">
+                <ul class="col-auto nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link  models_link active" id="nissan-tab" data-bs-toggle="tab"
+                            data-bs-target="#nissan-tab-pane" type="button" role="tab" aria-controls="nissan-pane"
+                            aria-selected="true">Nissan Datsun</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link models_link" id="toyota-tab" data-bs-toggle="tab" data-bs-target="#toyota-tab-pane"
+                            type="button" role="tab" aria-controls="toyota-tab-pane"
+                            aria-selected="false">Toyota</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link models_link" id="dodge-tab" data-bs-toggle="tab" data-bs-target="#dodge-tab-pane"
+                            type="button" role="tab" aria-controls="dodge-tab-pane" aria-selected="false">Dodge</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link models_link" id="kia-tab" data-bs-toggle="tab" data-bs-target="#kia-tab-pane"
+                            type="button" role="tab" aria-controls="kia-tab-pane" aria-selected="false">Kia</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link models_link" id="ford-tab" data-bs-toggle="tab" data-bs-target="#ford-tab-pane"
+                            type="button" role="tab" aria-controls="ford-tab-pane" aria-selected="false">Ford</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link  models_link" id="chervolet-tab" data-bs-toggle="tab"
+                            data-bs-target="#chervolet-tab-pane" type="button" role="tab"
+                            aria-controls="chervolet-tab-pane" aria-selected="false">Chevrolet</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link  models_link" id="honda-tab" data-bs-toggle="tab" data-bs-target="#honda-tab-pane"
+                            type="button" role="tab" aria-controls="honda-tab-pane" aria-selected="false">Honda</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="hyundai-tab" data-bs-toggle="tab"
+                            data-bs-target="#hyundai-tab-pane" type="button" role="tab" aria-controls="hyundai-tab-pane"
+                            aria-selected="false">Hyundai</button>
+                    </li>
+                    <li class="nav-item models_link" role="presentation">
+                        <button class="nav-link" id="bmw-tab" data-bs-toggle="tab" data-bs-target="#bmw-tab-pane"
+                            type="button" role="tab" aria-controls="bmw-tab-pane" aria-selected="false">BMW</button>
+                    </li>
+                    <li class="nav-item models_link" role="presentation">
+                        <button class="nav-link" id="jeep-tab" data-bs-toggle="tab" data-bs-target="#jeep-tab-pane"
+                            type="button" role="tab" aria-controls="jeep-tab-pane" aria-selected="false">Jeep
+                            Truck</button>
+                    </li>
+                    <li class="nav-item models_link" role="presentation">
+                        <button class="nav-link" id="mazda-tab" data-bs-toggle="tab" data-bs-target="#mazda-tab-pane"
+                            type="button" role="tab" aria-controls="mazda-tab-pane" aria-selected="false">Mazda</button>
+                    </li>
+                    <li class="nav-item models_link" role="presentation">
+                        <button class="nav-link" id="infiniti-tab" data-bs-toggle="tab"
+                            data-bs-target="#infiniti-tab-pane" type="button" role="tab"
+                            aria-controls="infiniti-tab-pane" aria-selected="false">Infiniti</button>
+                    </li>
+                    <li class="nav-item models_link" role="presentation">
+                        <button class="nav-link" id="volkswagen" data-bs-toggle="tab" data-bs-target="#volkswagen-pane"
+                            type="button" role="tab" aria-controls="volkswagen-pane"
+                            aria-selected="false">Volkswagen</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="top-tab-pane" role="tabpanel" aria-labelledby="top-tab"
+                        tabindex="0">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
         crossorigin="anonymous"></script>
+    <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
 </body>
 
 </html>
