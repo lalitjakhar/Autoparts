@@ -366,16 +366,33 @@ p {
 .models_link button:hover{
   border-color: transparent !important;
 }
+.car_model{
+  gap: 2.2rem;
+}
 .vehicleshow_content{
   background-color: #ffffff;
   border-radius: 7px;
   height: auto;
 }
 .vehicleshow_content h5{
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16.94px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  
+}
+
+.manufacturer_company{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 7rem;
+}
+.veiw_btn{
+  justify-content: end;
+  padding-inline-end: 1rem;
+  padding-block: 1rem;
 }
