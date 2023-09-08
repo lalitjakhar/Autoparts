@@ -424,3 +424,10 @@ p {
 .dorman_logo img {
   width: 50%;
 }
+.shipping_help{
+  gap: 2rem;
+}
+.shipping_content{
+  background-color: #4D4D4D;
+  border-radius: 10px;
+}
