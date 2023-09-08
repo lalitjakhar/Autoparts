@@ -351,48 +351,76 @@ p {
   width: 35%;
 }
 
-.models_link button{
+.models_link button {
   color: #ffffff;
   font-weight: 400;
   font-size: 14px;
 }
-.models_link button.active{
+
+.models_link button.active {
   color: #ffffff !important;
   border-bottom: 1px solid #FFA800 !important;
   background-color: transparent !important;
   border-top: none !important;
   border-inline: none !important;
 }
-.models_link button:hover{
+
+.models_link button:hover {
   border-color: transparent !important;
 }
-.car_model{
+
+.car_model {
   gap: 2.2rem;
 }
-.vehicleshow_content{
+
+@media only screen and (min-width: 1200px) {
+  .car_model>.col-lg-2 {
+    max-width: 11%;
+  }
+}
+
+.vehicleshow_content {
   background-color: #ffffff;
   border-radius: 7px;
   height: auto;
+  text-align: center;
 }
-.vehicleshow_content h5{
+
+.vehicleshow_content h5 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 14px;
   font-weight: 400;
   line-height: 16.94px;
-  
-}
 
-.manufacturer_company{
+}
+.vehicleshow_content h4{
+  font-size: 12px;
+  font-weight: 400;
+  color: #000000;
+  font-family: 'SF Pro Display'
+}
+.vehicleshow_content p{
+  font-size: 10px;
+  font-weight: 400;
+  color: #5f5e5e;
+  font-family: 'SF Pro Display'
+}
+.manufacturer_company {
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
   height: 7rem;
 }
-.veiw_btn{
+
+.veiw_btn {
   justify-content: end;
   padding-inline-end: 1rem;
   padding-block: 1rem;
+}
+
+.dorman_logo img {
+  width: 50%;
 }
