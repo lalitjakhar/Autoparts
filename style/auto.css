@@ -5,11 +5,12 @@ body {
   background: #1f1f1f !important;
 }
 
-.main_nav{
+.main_nav {
   position: fixed;
   background-color: #1f1f1f;
   z-index: 1;
 }
+
 .main_nav h2,
 p {
   color: #ffffff;
@@ -218,7 +219,7 @@ p {
 }
 
 .nissan_car {
-  background-image: url(../images/nissan.png);
+  background-image: url(../images/vehicle/nissan.png);
   border-radius: 20px;
   height: 16rem;
 }
@@ -273,13 +274,13 @@ p {
 }
 
 .motor_bike {
-  background-image: url(../images/motorcycle.png);
+  background-image: url(../images/vehicle/motorcycle.png);
   border-radius: 20px;
   height: 11rem;
 }
 
 .harley_bike {
-  background-image: url(../images/harley-davidson.png);
+  background-image: url(../images/vehicle/harley-davidson.png);
   border-radius: 20px;
   height: 11rem;
 }
@@ -396,18 +397,21 @@ p {
   line-height: 16.94px;
 
 }
-.vehicleshow_content h4{
+
+.vehicleshow_content h4 {
   font-size: 12px;
   font-weight: 400;
   color: #000000;
   font-family: 'SF Pro Display'
 }
-.vehicleshow_content p{
+
+.vehicleshow_content p {
   font-size: 10px;
   font-weight: 400;
   color: #5f5e5e;
   font-family: 'SF Pro Display'
 }
+
 .manufacturer_company {
   display: flex;
   justify-content: center;
@@ -425,26 +429,48 @@ p {
 .dorman_logo img {
   width: 50%;
 }
-.shipping_help{
+
+.shipping_help {
   gap: 2rem;
 }
-.shipping_content{
+
+.shipping_content {
   background-color: #4D4D4D;
   border-radius: 10px;
 }
-.shipping_content h4{
+
+.shipping_content h4 {
   color: #ffffff;
   font-weight: 600;
   font-size: 1.2rem;
 }
-.shipping_content h5{
+
+.shipping_content h5 {
   color: #ffffff;
   font-weight: 600;
   font-size: 0.9rem;
 }
-.footer_container{
+
+.footer_container {
   background-color: #000000;
 }
-.contact_no{
+.contact_us{
+  border-left: 1px solid #ffffff;
+}
+.contact_no {
   gap: 12px;
+}
+
+.footer_list{
+  list-style-type: none;
+  padding: 0px 0px 0px 0px;
+}
+
+.footer_list li{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #ffffff;
+  text-decoration: none !important;
 }
