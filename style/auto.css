@@ -5,10 +5,11 @@ body {
   background: #1f1f1f !important;
 }
 
-nav {
+.main_nav{
+  position: fixed;
   background-color: #1f1f1f;
+  z-index: 1;
 }
-
 .main_nav h2,
 p {
   color: #ffffff;
@@ -440,4 +441,10 @@ p {
   color: #ffffff;
   font-weight: 600;
   font-size: 0.9rem;
+}
+.footer_container{
+  background-color: #000000;
+}
+.contact_no{
+  gap: 12px;
 }
