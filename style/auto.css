@@ -451,26 +451,143 @@ p {
   font-size: 0.9rem;
 }
 
+.gradient_container {
+  background: linear-gradient(180deg, #525252 0%, rgba(82, 82, 82, 0) 86.12%);
+  border-radius: 50px 50px 0 0;
+  padding: 2rem 2rem 4rem 2rem;
+}
+
+.gradient_heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gradient_heading h3 {
+  color: #FFA800;
+  font-size: 32px;
+}
+
+.gradient_heading h4 {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: underline;
+}
+
+.gradient_column {
+  display: flex;
+  justify-content: center;
+}
+
+.gradient_column_content {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0rem 0rem 10em 0rem;
+}
+
+.gradient_column_content h3 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: rgba(255, 168, 0, 1);
+}
+
+.gradient_column_content h4 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.gradient_svg img {
+  position: absolute;
+  right: 0%;
+  top: 65%;
+}
+
+.rating_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating_container h4 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0em;
+  color: rgba(255, 168, 0, 1);
+}
+
+.rating_container h5 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 1);
+}
+
+.star_content {
+  display: flex;
+}
+
+.star_content h3 {
+  display: flex;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 42px;
+  letter-spacing: 0em;
+  color: rgba(255, 255, 255, 1);
+}
+
 .footer_container {
   background-color: #000000;
 }
-.contact_us{
+
+.contact_us {
   border-left: 1px solid #ffffff;
 }
+
 .contact_no {
   gap: 12px;
 }
 
-.footer_list{
+.footer_list {
   list-style-type: none;
   padding: 0px 0px 0px 0px;
 }
 
-.footer_list li{
+.footer_list li {
   font-size: 16px;
   font-weight: 500;
   line-height: 29px;
   letter-spacing: 0em;
   color: #ffffff;
   text-decoration: none !important;
+}
+
+.establish_content h5 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.7;
+}
+
+.footer_para h4 {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+  padding: 0rem 1rem 0rem 1rem;
+  opacity: 0.7;
 }
