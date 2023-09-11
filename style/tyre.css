@@ -64,7 +64,32 @@ p {
     background-color: #FFA800;
     height: 4rem;
 }
-.tyre_main_content img{
+
+.tyre_main_content img {
     border-radius: 20px;
     width: 100%;
+}
+
+.tyre_main_content_home p {
+    line-height: 1;
+    font-size: 16px;
+}
+
+.vl {
+    border-left: 1px solid #ffffff;
+    height: 0.8rem;
+}
+
+.tyre_filter {
+    background-color: #ffffff;
+    border-radius: 13px;
+    height: 66px;
+    padding: 1rem;
+}
+
+.tyre_filter h5 {
+    color: #1f1f1f;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5px;
 }
