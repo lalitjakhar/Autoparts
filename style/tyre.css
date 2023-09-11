@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background: #1f1f1f !important;
+}
+
+.main_nav {
+    background-color: #1f1f1f;
+    z-index: 1;
+}
+
+.main_nav h2,
+p {
+    color: #ffffff;
+}
+
+.search_bar input {
+    background-color: #1f1f1f;
+    color: #949393;
+    width: 75%;
+    border: none;
+    border-bottom: 2px solid #FFA800;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+}
+
+.search_bar input:focus {
+    box-shadow: none !important;
+    outline: none;
+}
+
+.search_icon {
+    display: none;
+    padding-right: 1rem;
+}
+
+@media only screen and (max-width: 1281px) {
+    .search_bar {
+        display: none;
+    }
+
+    .search_bar i {
+        float: right;
+    }
+
+    .search_icon {
+        display: block;
+    }
+}
+
+.drop_nav {
+    background-color: #FFA800 !important;
+}
+
+@media only screen and (max-width: 1281px) {
+    .drop_nav {
+        display: none;
+    }
+}
+
+.drop_button {
+    background-color: #FFA800;
+    height: 4rem;
+}
+.tyre_main_content img{
+    border-radius: 20px;
+    width: 100%;
+}
