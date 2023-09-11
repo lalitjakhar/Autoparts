@@ -16,22 +16,18 @@ p {
   color: #ffffff;
 }
 
-.search_bar {
-  border-bottom: 2px solid #FFA800;
-}
-
 .search_bar input {
   background-color: #1f1f1f;
   color: #949393;
   width: 75%;
-  border: none !important;
+  border: none;
+  border-bottom: 2px solid #FFA800;
   font-size: 14px;
   font-weight: 600;
   line-height: 16.94px;
 }
 
 .search_bar input:focus {
-  border: none !important;
   box-shadow: none !important;
   outline: none;
 }
@@ -77,7 +73,24 @@ p {
   line-height: 1.2;
   color: inherit;
   text-transform: uppercase;
+}
 
+@media only screen and (max-width: 710px) {
+  .detail_caption h1 {
+    font-size: 60px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .detail_caption h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .detail_caption h1 {
+    font-size: 40px;
+  }
 }
 
 .detail_caption p {
@@ -124,7 +137,7 @@ p {
 
 .vehicle_selection {
   background-color: #FFA800;
-  height: 4.5rem;
+  height: 4.1rem;
   border-radius: 2rem;
   margin-top: 1rem;
   position: relative;
@@ -507,7 +520,7 @@ p {
 .gradient_svg img {
   position: absolute;
   right: 0%;
-  top: 65%;
+  top: 40%;
 }
 
 .rating_container {
@@ -534,6 +547,14 @@ p {
 
 .star_content {
   display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 400px) {
+  .star_content {
+    flex-direction: column;
+  }
 }
 
 .star_content h3 {
@@ -543,6 +564,36 @@ p {
   line-height: 42px;
   letter-spacing: 0em;
   color: rgba(255, 255, 255, 1);
+}
+
+.star_card {
+  background-color: #ffffff;
+  border-radius: 2px;
+  height: 9rem;
+  padding: 12px;
+}
+.rating_card_carousel{
+  width: 20rem;
+  box-shadow: 0px 4px 4px 0px rgba(137, 137, 137, 0.25);
+  background-color: rgba(77, 77, 77, 1);
+}
+.rating_card_carousel_body_bottom{
+  padding-top: 0.3rem;
+}
+.blog_service {
+  color: #ffffff;
+}
+
+.blog_card_main h4 {
+  color: #FFA800;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.blog_card_main h5 {
+  color: #000000;
+  font-size: 11px;
+  font-weight: 400;
 }
 
 .footer_container {
