@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background: #1f1f1f !important;
 }
 
@@ -20,7 +20,7 @@ p {
   color: #949393;
   width: 75%;
   border: none;
-  border-bottom: 2px solid #FFA800;
+  border-bottom: 2px solid #ffa800;
   font-size: 14px;
   font-weight: 600;
   line-height: 16.94px;
@@ -51,7 +51,7 @@ p {
 }
 
 .drop_nav {
-  background-color: #FFA800 !important;
+  background-color: #ffa800 !important;
 }
 
 @media only screen and (max-width: 1281px) {
@@ -61,7 +61,7 @@ p {
 }
 
 .drop_button {
-  background-color: #FFA800;
+  background-color: #ffa800;
   height: 4rem;
 }
 
@@ -135,7 +135,7 @@ p {
 }
 
 .vehicle_selection {
-  background-color: #FFA800;
+  background-color: #ffa800;
   height: 4.1rem;
   border-radius: 2rem;
   margin-top: 1rem;
@@ -157,7 +157,7 @@ p {
   height: 2.9rem;
 }
 
-.car_content div>button::after {
+.car_content div > button::after {
   float: right;
   margin-top: 0.6rem;
 }
@@ -215,7 +215,7 @@ p {
 }
 
 .car_selection {
-  background-color: #FFA800;
+  background-color: #ffa800;
   border-radius: 2rem;
   margin-top: 1rem;
   padding: 30px;
@@ -245,7 +245,6 @@ p {
 }
 
 @media only screen and (max-width: 770px) {
-
   .nissan_content h4,
   .motor_bike h4,
   .harley_bike h4 {
@@ -262,7 +261,6 @@ p {
 }
 
 @media only screen and (max-width: 770px) {
-
   .nissan_content h5,
   .motor_bike h5,
   .harley_bike h5 {
@@ -319,7 +317,7 @@ p {
 .tabshow_content h5 {
   display: flex;
   justify-content: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   text-decoration: underline;
   font-size: 14px;
   padding-top: 24px;
@@ -328,13 +326,13 @@ p {
 }
 
 .tools_link.active {
-  border-bottom: 2px solid #FFA800 !important;
+  border-bottom: 2px solid #ffa800 !important;
   border-top: none !important;
   border-inline: none !important;
 }
 
 .empty_fluid {
-  background-color: #FFA800;
+  background-color: #ffa800;
   height: 2rem;
 }
 
@@ -361,7 +359,7 @@ p {
   font-weight: 400;
 }
 
-.regular_service>.carousel-cell {
+.regular_service > .carousel-cell {
   width: 35%;
 }
 
@@ -373,7 +371,7 @@ p {
 
 .models_link button.active {
   color: #ffffff !important;
-  border-bottom: 1px solid #FFA800 !important;
+  border-bottom: 1px solid #ffa800 !important;
   background-color: transparent !important;
   border-top: none !important;
   border-inline: none !important;
@@ -388,7 +386,7 @@ p {
 }
 
 @media only screen and (min-width: 1200px) {
-  .car_model>.col-lg-2 {
+  .car_model > .col-lg-2 {
     max-width: 11%;
   }
 }
@@ -407,21 +405,20 @@ p {
   font-size: 14px;
   font-weight: 400;
   line-height: 16.94px;
-
 }
 
 .vehicleshow_content h4 {
   font-size: 12px;
   font-weight: 400;
   color: #000000;
-  font-family: 'SF Pro Display'
+  font-family: "SF Pro Display";
 }
 
 .vehicleshow_content p {
   font-size: 10px;
   font-weight: 400;
   color: #5f5e5e;
-  font-family: 'SF Pro Display'
+  font-family: "SF Pro Display";
 }
 
 .manufacturer_company {
@@ -447,7 +444,7 @@ p {
 }
 
 .shipping_content {
-  background-color: #4D4D4D;
+  background-color: #4d4d4d;
   border-radius: 10px;
 }
 
@@ -476,7 +473,7 @@ p {
 }
 
 .gradient_heading h3 {
-  color: #FFA800;
+  color: #ffa800;
   font-size: 32px;
 }
 
@@ -571,12 +568,12 @@ p {
   height: 9rem;
   padding: 12px;
 }
-.rating_card_carousel{
+.rating_card_carousel {
   width: 20rem;
   box-shadow: 0px 4px 4px 0px rgba(137, 137, 137, 0.25);
   background-color: rgba(77, 77, 77, 1);
 }
-.rating_card_carousel_body_bottom{
+.rating_card_carousel_body_bottom {
   padding-top: 0.3rem;
 }
 .blog_service {
@@ -584,7 +581,7 @@ p {
 }
 
 .blog_card_main h4 {
-  color: #FFA800;
+  color: #ffa800;
   font-size: 12px;
   font-weight: 600;
 }
